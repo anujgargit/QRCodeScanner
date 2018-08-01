@@ -25,7 +25,7 @@ class QRScannerController: UIViewController,AVCaptureMetadataOutputObjectsDelega
 //        self.GetDateandTime(id: "1")
         // Get the back-facing camera for capturing videos
         captureSession = AVCaptureSession()
-        print("Hello!")
+
         guard let videoCaptureDevice = AVCaptureDevice.default(for: .video) else { return }
         let videoInput: AVCaptureDeviceInput
         
